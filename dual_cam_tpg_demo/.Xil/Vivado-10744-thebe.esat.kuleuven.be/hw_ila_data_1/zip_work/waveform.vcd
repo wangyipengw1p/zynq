@@ -1,0 +1,75 @@
+$date
+        2019-Aug-06 22:10:29
+$end
+$version
+        Vivado v2018.2 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 1 " design_1_i/system_ila_0/U0/probe0_1 $end
+$var reg 2 # design_1_i/system_ila_0/U0/net_slot_0_axi_ar_cnt [1:0] $end
+$var reg 32 % design_1_i/system_ila_0/U0/net_slot_0_axi_araddr [31:0] $end
+$var reg 8 E design_1_i/system_ila_0/U0/net_slot_0_axi_arlen [7:0] $end
+$var reg 3 M design_1_i/system_ila_0/U0/net_slot_0_axi_arsize [2:0] $end
+$var reg 2 P design_1_i/system_ila_0/U0/net_slot_0_axi_aw_cnt [1:0] $end
+$var reg 32 R design_1_i/system_ila_0/U0/net_slot_0_axi_awaddr [31:0] $end
+$var reg 8 r design_1_i/system_ila_0/U0/net_slot_0_axi_awlen [7:0] $end
+$var reg 3 z design_1_i/system_ila_0/U0/net_slot_0_axi_awsize [2:0] $end
+$var reg 2 } design_1_i/system_ila_0/U0/net_slot_0_axi_b_cnt [1:0] $end
+$var reg 2 !" design_1_i/system_ila_0/U0/net_slot_0_axi_bresp [1:0] $end
+$var reg 2 #" design_1_i/system_ila_0/U0/net_slot_0_axi_r_cnt [1:0] $end
+$var reg 64 %" design_1_i/system_ila_0/U0/net_slot_0_axi_rdata [63:0] $end
+$var reg 64 e" design_1_i/system_ila_0/U0/net_slot_0_axi_wdata [63:0] $end
+$var reg 8 G# design_1_i/system_ila_0/U0/net_slot_0_axi_wstrb [7:0] $end
+$var reg 2 O# design_1_i/system_ila_0/U0/net_slot_0_axi_aw_ctrl [1:0] $end
+$var reg 1 Q# design_1_i/system_ila_0/U0/net_slot_0_axi_awvalid $end
+$var reg 1 R# design_1_i/system_ila_0/U0/net_slot_0_axi_awready $end
+$var reg 3 S# design_1_i/system_ila_0/U0/net_slot_0_axi_w_ctrl [2:0] $end
+$var reg 1 V# design_1_i/system_ila_0/U0/net_slot_0_axi_wvalid $end
+$var reg 1 W# design_1_i/system_ila_0/U0/net_slot_0_axi_wready $end
+$var reg 1 X# design_1_i/system_ila_0/U0/net_slot_0_axi_wlast $end
+$var reg 1 Y# design_1_i/system_ila_0/U0/net_slot_0_axi_bvalid $end
+$var reg 2 Z# design_1_i/system_ila_0/U0/net_slot_0_axi_b_ctrl [1:0] $end
+$var reg 1 \# design_1_i/system_ila_0/U0/net_slot_0_axi_bready $end
+$var reg 2 ]# design_1_i/system_ila_0/U0/net_slot_0_axi_ar_ctrl [1:0] $end
+$var reg 1 _# design_1_i/system_ila_0/U0/net_slot_0_axi_arvalid $end
+$var reg 1 `# design_1_i/system_ila_0/U0/net_slot_0_axi_arready $end
+$var reg 1 a# design_1_i/system_ila_0/U0/net_slot_0_axi_rvalid $end
+$var reg 3 b# design_1_i/system_ila_0/U0/net_slot_0_axi_r_ctrl [2:0] $end
+$var reg 1 e# design_1_i/system_ila_0/U0/net_slot_0_axi_rready $end
+$var reg 1 f# design_1_i/system_ila_0/U0/net_slot_0_axi_rlast $end
+$var reg 48 g# design_1_i/system_ila_0/U0/net_slot_1_axis_tdata [47:0] $end
+$var reg 1 9$ design_1_i/system_ila_0/U0/net_slot_1_axis_tdest $end
+$var reg 1 :$ design_1_i/system_ila_0/U0/net_slot_1_axis_tid $end
+$var reg 6 ;$ design_1_i/system_ila_0/U0/net_slot_1_axis_tkeep [5:0] $end
+$var reg 6 A$ design_1_i/system_ila_0/U0/net_slot_1_axis_tstrb [5:0] $end
+$var reg 1 G$ design_1_i/system_ila_0/U0/net_slot_1_axis_tuser $end
+$var reg 1 H$ design_1_i/system_ila_0/U0/net_slot_1_axis_tvalid $end
+$var reg 1 I$ design_1_i/system_ila_0/U0/net_slot_1_axis_tready $end
+$var reg 1 J$ design_1_i/system_ila_0/U0/net_slot_1_axis_tlast $end
+$var reg 48 K$ design_1_i/system_ila_0/U0/net_slot_2_axis_tdata [47:0] $end
+$var reg 1 {$ design_1_i/system_ila_0/U0/net_slot_2_axis_tdest $end
+$var reg 1 |$ design_1_i/system_ila_0/U0/net_slot_2_axis_tid $end
+$var reg 6 }$ design_1_i/system_ila_0/U0/net_slot_2_axis_tkeep [5:0] $end
+$var reg 6 %% design_1_i/system_ila_0/U0/net_slot_2_axis_tstrb [5:0] $end
+$var reg 1 +% design_1_i/system_ila_0/U0/net_slot_2_axis_tuser $end
+$var reg 1 ,% design_1_i/system_ila_0/U0/net_slot_2_axis_tvalid $end
+$var reg 1 -% design_1_i/system_ila_0/U0/net_slot_2_axis_tready $end
+$var reg 1 .% design_1_i/system_ila_0/U0/net_slot_2_axis_tlast $end
+$var reg 3 /% AR_Channel__i1_s0___axi_vdma_0_M_AXI_S2MM_ [2:0] $end
+$var reg 3 2% AW_Channel__i1_s0___axi_vdma_0_M_AXI_S2MM_ [2:0] $end
+$var reg 3 5% B_Channel__i1_s0___axi_vdma_0_M_AXI_S2MM_ [2:0] $end
+$var reg 3 8% Interface__i1_s0___axi_vdma_0_M_AXI_S2MM_ [2:0] $end
+$var reg 3 ;% Interface__i1_s1___v_tpg_0_m_axis_video_ [2:0] $end
+$var reg 3 >% Interface__i1_s2___v_tpg_1_m_axis_video_ [2:0] $end
+$var reg 3 A% R_Channel__i1_s0___axi_vdma_0_M_AXI_S2MM_ [2:0] $end
+$var reg 3 D% T_Channel__i1_s1___v_tpg_0_m_axis_video_ [2:0] $end
+$var reg 3 G% T_Channel__i1_s2___v_tpg_1_m_axis_video_ [2:0] $end
+$var reg 3 J% W_Channel__i1_s0___axi_vdma_0_M_AXI_S2MM_ [2:0] $end
+$var reg 1 M% _TRIGGER $end
+$var reg 1 N% _WINDOW $end
+$var reg 1 O% _GAP $end
+$upscope $end
+$enddefinitions $end

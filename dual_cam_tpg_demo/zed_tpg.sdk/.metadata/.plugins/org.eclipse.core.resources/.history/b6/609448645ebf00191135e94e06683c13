@@ -1,0 +1,41 @@
+
+
+#ifndef DISPLAY_DEMO_H_
+#define DISPLAY_DEMO_H_
+
+
+#include "xil_types.h"
+
+/* ------------------------------------------------------------ */
+/*					           Defines			        		*/
+/* ------------------------------------------------------------ */
+#define IMG_W 800
+#define IMG_H 600
+#define DEBUG 1
+
+#define DEMO_PATTERN_0 0
+#define DEMO_PATTERN_1 1
+#define DEMO_PATTERN_2 2
+#define DEMO_PATTERN_3 3
+#define DEMO_PATTERN_4 4
+#define DEMO_PATTERN_5 5
+
+#define DISPLAY_NUM_FRAMES 3
+#define DEMO_MAX_FRAME (IMG_W*IMG_H*3)
+#define DEMO_STRIDE (IMG_W * 3)										//760 *1344
+#define UDP_BUFF_SIZE IMG_W*30
+
+
+
+/* ------------------------------------------------------------ */
+/*					Procedure Declarations						*/
+/* ------------------------------------------------------------ */
+
+
+
+
+/* ------------------------------------------------------------ */
+
+/************************************************************************/
+
+#endif /* DISPLAY_DEMO_H_ */
