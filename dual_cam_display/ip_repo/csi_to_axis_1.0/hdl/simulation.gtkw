@@ -1,0 +1,39 @@
+[*]
+[*] GTKWave Analyzer v3.3.58 (w)1999-2014 BSI
+[*] Wed Apr 26 13:45:15 2017
+[*]
+[dumpfile] "/home/achiel/Documents/Thesis/Projects/te0726_m_demo1/ip_lib/csi_to_axis_1.0/hdl/csi_to_axis_v1_0_tb.ghw"
+[dumpfile_mtime] "Wed Apr 26 13:41:30 2017"
+[dumpfile_size] 686275
+[savefile] "/home/achiel/Documents/Thesis/Projects/te0726_m_demo1/ip_lib/csi_to_axis_1.0/hdl/simulation.gtkw"
+[timestart] 841140000
+[size] 1855 1176
+[pos] -1 -1
+*-21.105158 848100000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.csi_to_axis_v1_0_tb.
+[treeopen] top.csi_to_axis_v1_0_tb.uut.
+[treeopen] top.csi_to_axis_v1_0_tb.uut.lane_align_inst.
+[sst_width] 273
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 362
+@28
+top.csi_to_axis_v1_0_tb.uut.rxbyteclkhs
+#{top.csi_to_axis_v1_0_tb.dl0_datahs[7:0]} top.csi_to_axis_v1_0_tb.dl0_datahs[7] top.csi_to_axis_v1_0_tb.dl0_datahs[6] top.csi_to_axis_v1_0_tb.dl0_datahs[5] top.csi_to_axis_v1_0_tb.dl0_datahs[4] top.csi_to_axis_v1_0_tb.dl0_datahs[3] top.csi_to_axis_v1_0_tb.dl0_datahs[2] top.csi_to_axis_v1_0_tb.dl0_datahs[1] top.csi_to_axis_v1_0_tb.dl0_datahs[0]
+#{top.csi_to_axis_v1_0_tb.dl1_datahs[7:0]} top.csi_to_axis_v1_0_tb.dl1_datahs[7] top.csi_to_axis_v1_0_tb.dl1_datahs[6] top.csi_to_axis_v1_0_tb.dl1_datahs[5] top.csi_to_axis_v1_0_tb.dl1_datahs[4] top.csi_to_axis_v1_0_tb.dl1_datahs[3] top.csi_to_axis_v1_0_tb.dl1_datahs[2] top.csi_to_axis_v1_0_tb.dl1_datahs[1] top.csi_to_axis_v1_0_tb.dl1_datahs[0]
+#{top.csi_to_axis_v1_0_tb.uut.raw_valid_dbg[1:0]} top.csi_to_axis_v1_0_tb.uut.raw_valid_dbg[1] top.csi_to_axis_v1_0_tb.uut.raw_valid_dbg[0]
+#{top.csi_to_axis_v1_0_tb.uut.lane_align_inst.valid_out[1:0]} top.csi_to_axis_v1_0_tb.uut.lane_align_inst.valid_out[1] top.csi_to_axis_v1_0_tb.uut.lane_align_inst.valid_out[0]
+#{top.csi_to_axis_v1_0_tb.uut.lane_align_inst.sot_found[1:0]} top.csi_to_axis_v1_0_tb.uut.lane_align_inst.sot_found[1] top.csi_to_axis_v1_0_tb.uut.lane_align_inst.sot_found[0]
+@22
+#{top.csi_to_axis_v1_0_tb.uut.lane_align_inst.data_out[15:0]} top.csi_to_axis_v1_0_tb.uut.lane_align_inst.data_out[15] top.csi_to_axis_v1_0_tb.uut.lane_align_inst.data_out[14] top.csi_to_axis_v1_0_tb.uut.lane_align_inst.data_out[13] top.csi_to_axis_v1_0_tb.uut.lane_align_inst.data_out[12] top.csi_to_axis_v1_0_tb.uut.lane_align_inst.data_out[11] top.csi_to_axis_v1_0_tb.uut.lane_align_inst.data_out[10] top.csi_to_axis_v1_0_tb.uut.lane_align_inst.data_out[9] top.csi_to_axis_v1_0_tb.uut.lane_align_inst.data_out[8] top.csi_to_axis_v1_0_tb.uut.lane_align_inst.data_out[7] top.csi_to_axis_v1_0_tb.uut.lane_align_inst.data_out[6] top.csi_to_axis_v1_0_tb.uut.lane_align_inst.data_out[5] top.csi_to_axis_v1_0_tb.uut.lane_align_inst.data_out[4] top.csi_to_axis_v1_0_tb.uut.lane_align_inst.data_out[3] top.csi_to_axis_v1_0_tb.uut.lane_align_inst.data_out[2] top.csi_to_axis_v1_0_tb.uut.lane_align_inst.data_out[1] top.csi_to_axis_v1_0_tb.uut.lane_align_inst.data_out[0]
+@28
+top.csi_to_axis_v1_0_tb.uut.lane_align_inst.resync
+top.csi_to_axis_v1_0_tb.uut.lane_align_inst.test0_det
+top.csi_to_axis_v1_0_tb.uut.lane_align_inst.test1_det
+top.csi_to_axis_v1_0_tb.uut.lane_align_inst.test0
+top.csi_to_axis_v1_0_tb.uut.lane_align_inst.test1
+@23
+#{top.csi_to_axis_v1_0_tb.raw_data_dbg[15:0]} top.csi_to_axis_v1_0_tb.raw_data_dbg[15] top.csi_to_axis_v1_0_tb.raw_data_dbg[14] top.csi_to_axis_v1_0_tb.raw_data_dbg[13] top.csi_to_axis_v1_0_tb.raw_data_dbg[12] top.csi_to_axis_v1_0_tb.raw_data_dbg[11] top.csi_to_axis_v1_0_tb.raw_data_dbg[10] top.csi_to_axis_v1_0_tb.raw_data_dbg[9] top.csi_to_axis_v1_0_tb.raw_data_dbg[8] top.csi_to_axis_v1_0_tb.raw_data_dbg[7] top.csi_to_axis_v1_0_tb.raw_data_dbg[6] top.csi_to_axis_v1_0_tb.raw_data_dbg[5] top.csi_to_axis_v1_0_tb.raw_data_dbg[4] top.csi_to_axis_v1_0_tb.raw_data_dbg[3] top.csi_to_axis_v1_0_tb.raw_data_dbg[2] top.csi_to_axis_v1_0_tb.raw_data_dbg[1] top.csi_to_axis_v1_0_tb.raw_data_dbg[0]
+[pattern_trace] 1
+[pattern_trace] 0

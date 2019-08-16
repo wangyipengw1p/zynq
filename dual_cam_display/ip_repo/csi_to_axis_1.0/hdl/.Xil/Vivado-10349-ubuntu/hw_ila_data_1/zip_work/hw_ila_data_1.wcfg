@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="10711fs"></ZoomEndTime>
+      <Cursor1Time time="862000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="157"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWADDR">
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_vdma_0_M_AXI_S2MM_AWADDR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWVALID">
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">axi_vdma_0_M_AXI_S2MM_AWVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_BREADY">
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_BREADY</obj_property>
+      <obj_property name="ObjectShortName">axi_vdma_0_M_AXI_S2MM_BREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_BRESP">
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_vdma_0_M_AXI_S2MM_BRESP[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_BVALID">
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_BVALID</obj_property>
+      <obj_property name="ObjectShortName">axi_vdma_0_M_AXI_S2MM_BVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WDATA">
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_vdma_0_M_AXI_S2MM_WDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WREADY">
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WREADY</obj_property>
+      <obj_property name="ObjectShortName">axi_vdma_0_M_AXI_S2MM_WREADY</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WVALID">
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WVALID</obj_property>
+      <obj_property name="ObjectShortName">axi_vdma_0_M_AXI_S2MM_WVALID</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WSTRB">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_vdma_0_M_AXI_S2MM_WSTRB[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,47 @@
+$date
+        2017-May-09 14:48:44
+$end
+$version
+        Vivado v2016.4 (64-bit)
+$end
+$timescale
+        1ps
+$end
+$scope module dut $end
+$var reg 4 " i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WSTRB [3:0] $end
+$var reg 32 & i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WDATA [31:0] $end
+$var reg 2 F i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_BRESP [1:0] $end
+$var reg 1 H u_ila_0_axi_vdma_0_M_AXI_S2MM_AWSIZE_1 $end
+$var reg 1 K u_ila_0_axi_vdma_0_M_AXI_S2MM_AWSIZE_2 $end
+$var reg 1 L u_ila_0_axi_vdma_0_M_AXI_S2MM_AWSIZE_3 $end
+$var reg 1 M u_ila_0_axi_vdma_0_M_AXI_S2MM_AWSIZE_4 $end
+$var reg 4 N u_ila_0_axi_vdma_0_M_AXI_S2MM_AWLEN [3:0] $end
+$var reg 1 R u_ila_0_axi_vdma_0_M_AXI_S2MM_AWSIZE_5 $end
+$var reg 1 S u_ila_0_axi_vdma_0_M_AXI_S2MM_AWSIZE_6 $end
+$var reg 1 T u_ila_0_axi_vdma_0_M_AXI_S2MM_AWSIZE_7 $end
+$var reg 1 U u_ila_0_axi_vdma_0_M_AXI_S2MM_AWSIZE_8 $end
+$var reg 1 V u_ila_0_axi_vdma_0_M_AXI_S2MM_AWCACHE_1 $end
+$var reg 1 W u_ila_0_axi_vdma_0_M_AXI_S2MM_AWCACHE $end
+$var reg 1 X u_ila_0_axi_vdma_0_M_AXI_S2MM_AWSIZE_9 $end
+$var reg 1 Y u_ila_0_axi_vdma_0_M_AXI_S2MM_AWSIZE_10 $end
+$var reg 1 Z u_ila_0_axi_vdma_0_M_AXI_S2MM_AWBURST $end
+$var reg 1 [ u_ila_0_axi_vdma_0_M_AXI_S2MM_AWSIZE $end
+$var reg 32 \ i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWADDR [31:0] $end
+$var reg 4 | cam1_data_lp_p_IBUF [3:0] $end
+$var reg 4 "" cam1_data_lp_n_IBUF [3:0] $end
+$var reg 1 &" u_ila_0_axi_vdma_0_M_AXI_S2MM_AWREADY $end
+$var reg 1 '" i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWVALID $end
+$var reg 1 (" i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_BREADY $end
+$var reg 1 )" i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_BVALID $end
+$var reg 1 *" u_ila_0_axi_vdma_0_M_AXI_S2MM_WLAST $end
+$var reg 1 +" i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WREADY $end
+$var reg 1 ," i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WVALID $end
+$var reg 1 -" \i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/bits_gen[1].line_if_inst/data_s $end
+$var reg 1 ." \i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/bits_gen[3].line_if_inst/data_s $end
+$var reg 1 /" \i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/bits_gen[2].line_if_inst/data_s $end
+$var reg 1 0" \i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/bits_gen[0].line_if_inst/data_s $end
+$var reg 1 1" _TRIGGER $end
+$var reg 1 2" _WINDOW $end
+$var reg 1 3" _GAP $end
+$upscope $end
+$enddefinitions $end

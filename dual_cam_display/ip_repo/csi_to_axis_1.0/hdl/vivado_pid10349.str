@@ -1,0 +1,2299 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+Process ID: 10349
+
+Current time: 	5/9/17 2:01:13 PM CEST
+Time zone: 	Central European Time (Europe/Brussels)
+
+OS: DISTRIB_ID=Ubuntu
+Version: 4.4.0-64-generic
+Architecture: amd64
+Available processors (cores): 16
+
+DISPLAY: :0
+Screen size: 1920x1200
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	/home/achiel/Xilinx/Vivado/2016.4/tps/lnx64/jre
+
+User name: 	achiel
+User home directory: /home/achiel
+User working directory: /home/achiel/Documents/Thesis/Projects/te0726_m_demo1/ip_lib/csi_to_axis_1.0/hdl
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: /home/achiel/Xilinx/Vivado
+RDI data directory: /home/achiel/Xilinx/Vivado/2016.4/data
+RDI bin directory: /home/achiel/Xilinx/Vivado/2016.4/bin
+
+Vivado preferences path: /home/achiel/.Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: /home/achiel/.Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	198 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 4,894 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 32 MB (+30716kb) [00:00:08]
+// [Engine Memory]: 4,894 MB (+4980169kb) [00:00:08]
+selectList(PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, "/home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.xpr", 0); // q:k (JViewport:JComponent, cd:JFrame)
+// bt:g (cd:JFrame):  Open Project : addNotify
+// Opening Vivado Project: /home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.xpr. Version: Vivado v2016.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// HMemoryUtils.trashcanNow. Engine heap size: 4,959 MB. GUI used memory: 23 MB. Current time: 5/9/17 2:01:16 PM CEST
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 38 MB (+5228kb) [00:00:23]
+// [GUI Memory]: 56 MB (+16866kb) [00:00:24]
+// [Engine Memory]: 5,155 MB (+17467kb) [00:00:24]
+// [GUI Memory]: 60 MB (+501kb) [00:00:33]
+// Tcl Message: open_project /home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/achiel/Documents/Thesis/Projects/te0726_m_demo1/ip_lib/csi_to_axis_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/achiel/Documents/Thesis/Projects/te0726_m_demo1/ip_lib/csi2_d_phy_rx_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/achiel/Documents/Thesis/video_compression/Vivado/library'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/achiel/Xilinx/Vivado/2016.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 5,167 MB. GUI used memory: 44 MB. Current time: 5/9/17 2:01:39 PM CEST
+// Tcl Message: open_project: Time (s): cpu = 00:00:44 ; elapsed = 00:00:24 . Memory (MB): peak = 6062.184 ; gain = 250.906 ; free physical = 10829 ; free virtual = 13476 
+// Project name: pzsdr2_ccfmc_lvds; location: /home/achiel/Documents/Thesis/picozed_sdr/camera_project_final; part: xc7z035ifbg676-2L
+// [GUI Memory]: 64 MB (+1237kb) [00:00:37]
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 27 seconds
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 91 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// bt:g (cd:JFrame):  IP Catalog : addNotify
+dismissDialog("IP Catalog"); // bt:g (cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// bt:g (cd:JFrame):  IP Catalog : addNotify
+dismissDialog("IP Catalog"); // bt:g (cd:JFrame)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP Catalog", 1, true, false); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame) - Popup Trigger
+selectTab(PAResourceItoN.IPCoreView_TABBED_PANE, PAResourceItoN.IPCoreView_INTERFACES, "Interfaces", 1); // g:JideTabbedPane (JideSplitPane:JPanel, cd:JFrame)
+selectTab(PAResourceItoN.IPCoreView_TABBED_PANE, PAResourceItoN.IPCoreView_CORES, "Cores", 0); // g:JideTabbedPane (JideSplitPane:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Generate Block Design]", 8, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_RSB_DESIGN
+// at:q (cd:JFrame): Generate Output Products: addNotify
+// [GUI Memory]: 69 MB (+2026kb) [00:02:56]
+// [GUI Memory]: 74 MB (+1327kb) [00:03:11]
+// [GUI Memory]: 79 MB (+1753kb) [00:03:26]
+// [GUI Memory]: 83 MB (+444kb) [00:05:11]
+// Elapsed time: 574 seconds
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, at:q)
+// bt:g (cd:JFrame):  Managing Output Products : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: generate_target all [get_files  /home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.srcs/sources_1/bd/system/system.bd] 
+// Tcl Message: INFO: [BD 41-1637] Generated targets are already up-to-date for bd-design 'system' - hence not re-generating. 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all system_csi_to_axis_0_0] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet 
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.srcs/sources_1/bd/system/system.bd] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// Tcl Message: launch_runs -jobs 16 system_csi_to_axis_0_0_synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue May  9 14:13:11 2017] Launched system_csi_to_axis_0_0_synth_1... Run output will be captured here: /home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.runs/system_csi_to_axis_0_0_synth_1/runme.log 
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 6118.734 ; gain = 42.543 ; free physical = 10751 ; free virtual = 13413 
+// TclEventType: PROJECT_CHANGE
+// [GUI Memory]: 89 MB (+1731kb) [00:12:38]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 5000 ms.
+// 'aE' command handler elapsed time: 661 seconds
+// HMemoryUtils.trashcanNow. Engine heap size: 5,199 MB. GUI used memory: 55 MB. Current time: 5/9/17 2:14:33 PM CEST
+// Elapsed time: 87 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, F:JDialog)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// 'cn' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: [Tue May  9 14:14:42 2017] Launched synth_1... Run output will be captured here: /home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.runs/synth_1/runme.log [Tue May  9 14:14:42 2017] Launched impl_1... Run output will be captured here: /home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.runs/impl_1/runme.log 
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)
+// [GUI Memory]: 94 MB (+240kb) [00:13:57]
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 4000 ms.
+// [GUI Memory]: 100 MB (+1225kb) [00:15:35]
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 5000 ms.
+// ah:y (cd:JFrame): Implementation Failed: addNotify
+// Elapsed time: 157 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah:y (cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Opt Design, [Chipscope 16-213] The debug port 'u_ila_0/clk' has 1 unconnected channels (bits). This will cause errors during implementation.. ]", 22, false); // ah:i (JViewport:JComponent, cd:JFrame)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 18); // u:K (t:D, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Set Up Debug]", 21, false); // u:K (t:D, cd:JFrame)
+// [GUI Memory]: 105 MB (+472kb) [00:16:43]
+// bt:g (cd:JFrame):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7z035ifbg676-2L 
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 5,332 MB. GUI used memory: 56 MB. Current time: 5/9/17 2:18:01 PM CEST
+// [Engine Memory]: 5,477 MB (+67501kb) [00:17:05]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_CORE_ADD
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_CORE_ADD
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// HMemoryUtils.trashcanNow. Engine heap size: 5,578 MB. GUI used memory: 49 MB. Current time: 5/9/17 2:18:26 PM CEST
+// [Engine Memory]: 5,790 MB (+40669kb) [00:17:34]
+// HMemoryUtils.trashcanNow. Engine heap size: 5,987 MB. GUI used memory: 49 MB. Current time: 5/9/17 2:18:41 PM CEST
+// TclEventType: TIMING_RESULTS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 5,998 MB. GUI used memory: 49 MB. Current time: 5/9/17 2:18:45 PM CEST
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.5s
+// [Engine Memory]: 6,144 MB (+67791kb) [00:17:42]
+// Xgd.load filename: /home/achiel/Xilinx/Vivado/2016.4/data/./parts/xilinx/zynq/devint/zynq/xc7z035/xc7z035.xgd; ZipEntry: xc7z035_detail.xgd elapsed time: 1.6s
+// Schematic: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: Finished Parsing XDC File [/home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.srcs/constrs_1/new/system_top.xdc] Parsing XDC File [/home/achiel/Documents/Thesis/picozed_sdr/custom_constr.xdc] Finished Parsing XDC File [/home/achiel/Documents/Thesis/picozed_sdr/custom_constr.xdc] Parsing XDC File [/home/achiel/Documents/Thesis/hdl/projects/common/xilinx/compression_system_constr.xdc] Finished Parsing XDC File [/home/achiel/Documents/Thesis/hdl/projects/common/xilinx/compression_system_constr.xdc] Parsing XDC File [/home/achiel/Documents/Thesis/hdl/projects/pzsdr2/common/pzsdr2_constr.xdc] 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.srcs/sources_1/bd/system/ip/system_axi_ad9361_dac_dma_0/system_axi_ad9361_dac_dma_0_constr.xdc:2] INFO: [Timing 38-2] Deriving generated clocks [/home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.srcs/sources_1/bd/system/ip/system_axi_ad9361_dac_dma_0/system_axi_ad9361_dac_dma_0_constr.xdc:2] 
+// Tcl Message: get_clocks: Time (s): cpu = 00:00:28 ; elapsed = 00:00:21 . Memory (MB): peak = 6945.973 ; gain = 444.273 ; free physical = 9820 ; free virtual = 12640 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary:   A total of 25 instances were transformed.   IOBUF => IOBUF (IBUF, OBUFT): 13 instances   OBUFDS => OBUFDS: 8 instances   RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 4 instances  
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// ExpRunCommands.openSynthResults elapsed time: 65.4s
+// Tcl Message: open_run: Time (s): cpu = 00:01:30 ; elapsed = 00:01:00 . Memory (MB): peak = 7180.172 ; gain = 987.195 ; free physical = 9683 ; free virtual = 12446 
+// Run Command: PAResourceCommand.PACommandNames_DEBUG_WIZARD
+// [GUI Memory]: 113 MB (+2092kb) [00:17:49]
+// M:a (cd:JFrame): Critical Messages: addNotify
+// [GUI Memory]: 119 MB (+407kb) [00:17:49]
+// L:g (cd:JFrame): Set Up Debug: addNotify
+// Elapsed time: 65 seconds
+dismissDialog("Open Synthesized Design"); // bt:g (cd:JFrame)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, L:g)
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, L:g)
+dismissDialog("Set Up Debug"); // L:g (cd:JFrame)
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, M:a)
+dismissDialog("Critical Messages"); // M:a (cd:JFrame)
+// PAPropertyPanels.initPanels (u_ila_1 (u_ila_1_CV)) elapsed time: 0.4s
+selectTreeTable(PAResourceAtoD.DebugView_DEBUG_CORES_TREE_TABLE, "u_ila_1 (labtools_ila_v6) ;  ;  ; ", 25, "u_ila_1 (labtools_ila_v6)", 0, true); // v:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.DebugView_DEBUG_CORES_TREE_TABLE, "u_ila_1 (labtools_ila_v6) ;  ;  ; ", 25, "u_ila_1 (labtools_ila_v6)", 0, true); // v:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.DebugView_DEBUG_CORES_TREE_TABLE, "u_ila_1 (labtools_ila_v6) ;  ;  ; ", 25, "u_ila_1 (labtools_ila_v6)", 0, true, false, false, false, true, false); // v:ab (JViewport:JComponent, cd:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceAtoD.DebugMenu_REMOVE_UNCONNECTED_DEBUG_PORTS_AND_CHANNELS, "Remove Unconnected Debug Ports and Channels"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// TclEventType: DEBUG_PORT_DELETE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_DELETE
+// TclEventType: NETLIST_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 6,142 MB. GUI used memory: 87 MB. Current time: 5/9/17 2:19:08 PM CEST
+// PAPropertyPanels.initPanels (u_ila_1 (u_ila_1_CV)) elapsed time: 0.9s
+// Tcl Message: delete_debug_port [get_debug_ports {u_ila_1/probe36 u_ila_1/probe37 u_ila_1/probe38 u_ila_1/probe39 u_ila_1/probe40 u_ila_1/probe41 u_ila_1/probe42 u_ila_1/probe43 u_ila_1/probe45 }] 
+selectTreeTable(PAResourceAtoD.DebugView_DEBUG_CORES_TREE_TABLE, "u_ila_1 (labtools_ila_v6) ;  ;  ; ", 25, "u_ila_1 (labtools_ila_v6)", 0, true); // v:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.DebugView_DEBUG_CORES_TREE_TABLE, "u_ila_1 (labtools_ila_v6) ;  ;  ; ", 25, "u_ila_1 (labtools_ila_v6)", 0, true, false, false, false, true, false); // v:ab (JViewport:JComponent, cd:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceAtoD.DebugMenu_REMOVE_UNCONNECTED_DEBUG_PORTS_AND_CHANNELS, "Remove Unconnected Debug Ports and Channels"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// [GUI Memory]: 126 MB (+944kb) [00:18:10]
+selectTreeTable(PAResourceAtoD.DebugView_DEBUG_CORES_TREE_TABLE, "u_ila_0 (labtools_ila_v6) ;  ;  ; ", 1, "u_ila_0 (labtools_ila_v6)", 0, true, false, false, false, true, false); // v:ab (JViewport:JComponent, cd:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceAtoD.DebugMenu_REMOVE_UNCONNECTED_DEBUG_PORTS_AND_CHANNELS, "Remove Unconnected Debug Ports and Channels"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// HOptionPane Warning: 'Could not remove unconnected Debug Channels from 'u_ila_0/clk'. Ports of type 'clk'<br>are not removable. (Remove unconnected Debug Ports and Channels)'
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/clk] 
+selectButton("PAResourceAtoD.DebugMenu_COULD_NOT_REMOVE_UNCONNECTED_DEBUG_CHANNELS_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, F:JDialog)
+selectTreeTable(PAResourceAtoD.DebugView_DEBUG_CORES_TREE_TABLE, "u_ila_1 (labtools_ila_v6) ;  ;  ; ", 25, "u_ila_1 (labtools_ila_v6)", 0, true); // v:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.DebugView_DEBUG_CORES_TREE_TABLE, "clk (1) ;  ;  ; ", 26, "clk (1)", 0, true); // v:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.DebugView_DEBUG_CORES_TREE_TABLE, "u_ila_1 (labtools_ila_v6) ;  ;  ; ", 25, "u_ila_1 (labtools_ila_v6)", 0, true); // v:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.DebugView_DEBUG_CORES_TREE_TABLE, "probe0 (15) ;  ;  ; Data and Trigger", 27, "probe0 (15)", 0, true); // v:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.DebugView_DEBUG_CORES_TREE_TABLE, "u_ila_1 (labtools_ila_v6) ;  ;  ; ", 25, "u_ila_1 (labtools_ila_v6)", 0, true); // v:ab (JViewport:JComponent, cd:JFrame) - Node
+// PAPropertyPanels.initPanels (u_ila_1_transfer_cnt[1]) elapsed time: 0.2s
+// Run Command: PAResourceCommand.PACommandNames_SAVE_DESIGN
+// bt:g (cd:JFrame):  Save Constraints : addNotify
+// Tcl Message: save_constraints 
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Elapsed time: 20 seconds
+dismissDialog("Save Constraints"); // bt:g (cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 37, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// y:aO (cd:JFrame): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // y:aO (cd:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// 'cn' command handler elapsed time: 5 seconds
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// Tcl Message: ERROR: [Chipscope 16-213] The debug port 'u_ila_0/clk' has 1 unconnected channels (bits). This will cause errors during implementation. 
+// ah:a (cd:JFrame): Launch Run Critical Messages: addNotify
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, ah:a)
+dismissDialog("Launch Run Critical Messages"); // ah:a (cd:JFrame)
+// [GUI Memory]: 132 MB (+165kb) [00:19:00]
+selectTreeTable(PAResourceAtoD.DebugView_DEBUG_CORES_TREE_TABLE, "u_ila_0 (labtools_ila_v6) ;  ;  ; ", 1, "u_ila_0 (labtools_ila_v6)", 0, true); // v:ab (JViewport:JComponent, cd:JFrame) - Node
+selectButton(PAResourceCommand.PACommandNames_DEBUG_WIZARD, "Debug_debug_wizard"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_DEBUG_WIZARD
+// L:g (cd:JFrame): Set Up Debug: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, L:g)
+// bt:g (L:g):  Filtering Net and Tracing Clock Domain : addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, L:g)
+dismissDialog("Filtering Net and Tracing Clock Domain"); // bt:g (L:g)
+selectTreeTableHeader(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "Name", 0); // an:ab (JViewport:JComponent, L:g)
+selectTreeTableHeader(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "Name", 0); // an:ab (JViewport:JComponent, L:g)
+// Elapsed time: 11 seconds
+selectTreeTableHeader(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "Probe Type", 3); // an:ab (JViewport:JComponent, L:g)
+selectTreeTableHeader(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "Driver Cell", 1); // an:ab (JViewport:JComponent, L:g)
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "cam1_data_lp_n_IBUF (4) ; IBUF ; i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/clock_system_inst/out_pclk ; Data and Trigger", 0, "cam1_data_lp_n_IBUF (4)", 0, true); // an:ab (JViewport:JComponent, L:g) - Node
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WVALID ; FDRE ; i_system_wrapper/system_i/sys_ps7/inst/FCLK_CLK0 ; Data and Trigger", 17, "i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WVALID", 0, true); // an:ab (JViewport:JComponent, L:g) - Node
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWSIZE (3) ; (Multiple) ; partially defined ; Data and Trigger", 8, "i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWSIZE (3)", 0, true); // an:ab (JViewport:JComponent, L:g) - Node
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWPROT (3) ; GND ; undefined ; Data and Trigger", 6, "i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWPROT (3)", 0, true, false, true, false, false, false); // an:ab (JViewport:JComponent, L:g) - Control Key - Node
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWLEN (8) ; (Multiple) ; partially defined ; Data and Trigger", 5, "i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWLEN (8)", 0, true, false, true, false, false, false); // an:ab (JViewport:JComponent, L:g) - Control Key - Node
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWCACHE (4) ; (Multiple) ; undefined ; Data and Trigger", 4, "i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWCACHE (4)", 0, true, false, true, false, false, false); // an:ab (JViewport:JComponent, L:g) - Control Key - Node
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWBURST (2) ; (Multiple) ; partially defined ; Data and Trigger", 3, "i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWBURST (2)", 0, true, false, true, false, false, false); // an:ab (JViewport:JComponent, L:g) - Control Key - Node
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWCACHE (4) ; (Multiple) ; undefined ; Data and Trigger", 4, "i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWCACHE (4)", 0, true, false, false, false, true, false); // an:ab (JViewport:JComponent, L:g) - Popup Trigger - Node
+selectMenuItem(PAResourceAtoD.DebugWizard_SELECT_CLOCK_DOMAIN, "Select Clock Domain..."); // R:ab (ah:JPopupMenu, L:g)
+// Tcl Command: 'show_objects -name CLK_NET0.8769930680801296 [get_nets -hierarchical -filter {TYPE == "GLOBAL_CLOCK"}]'
+// aT:q (cd:JFrame): Select Clock Domain: addNotify
+// TclEventType: SHOW_OBJECTS
+// bt:g (aT:q):  Find Nets as Clock Domains : addNotify
+dismissDialog("Find Nets as Clock Domains"); // bt:g (aT:q)
+selectTree(PAResourceOtoP.PickClockDomainNetDialog_CLOCK_DOMAIN_NETS_TREE, "[pzsdr2_ccfmc_lvds, i_system_wrapper/system_i/sys_ps7/inst/FCLK_CLK0]", 3, false); // aX:i (JViewport:JComponent, aT:q)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aT:q)
+dismissDialog("Select Clock Domain"); // aT:q (cd:JFrame)
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "cam1_data_lp_p_IBUF (4) ; IBUF ; i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/clock_system_inst/out_pclk ; Data and Trigger", 1, "cam1_data_lp_p_IBUF (4)", 0, true); // an:ab (JViewport:JComponent, L:g) - Node
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "cam1_data_lp_n_IBUF (4) ; IBUF ; i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/clock_system_inst/out_pclk ; Data and Trigger", 0, "cam1_data_lp_n_IBUF (4)", 0, true, false, true, false, false, false); // an:ab (JViewport:JComponent, L:g) - Control Key - Node
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "cam1_data_lp_n_IBUF (4) ; IBUF ; i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/clock_system_inst/out_pclk ; Data and Trigger", 0, "cam1_data_lp_n_IBUF (4)", 0, true, false, false, false, true, false); // an:ab (JViewport:JComponent, L:g) - Popup Trigger - Node
+selectMenu(PAResourceAtoD.DebugWizard_SET_PROBE_TYPE, "Set Probe Type"); // Y:JMenu (ah:JPopupMenu, L:g)
+selectMenuItem(PAResourceAtoD.DebugWizard_SELECT_CLOCK_DOMAIN, "Select Clock Domain..."); // R:ab (ah:JPopupMenu, L:g)
+// Tcl Command: 'show_objects -name CLK_NET0.4782228822861252 [get_nets -hierarchical -filter {TYPE == "GLOBAL_CLOCK"}]'
+// aT:q (cd:JFrame): Select Clock Domain: addNotify
+// TclEventType: SHOW_OBJECTS
+// bt:g (aT:q):  Find Nets as Clock Domains : addNotify
+dismissDialog("Find Nets as Clock Domains"); // bt:g (aT:q)
+selectTree(PAResourceOtoP.PickClockDomainNetDialog_CLOCK_DOMAIN_NETS_TREE, "[pzsdr2_ccfmc_lvds, i_system_wrapper/system_i/sys_ps7/inst/FCLK_CLK0]", 3, false); // aX:i (JViewport:JComponent, aT:q)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aT:q)
+dismissDialog("Select Clock Domain"); // aT:q (cd:JFrame)
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/bits_gen[0].line_if_inst/data_s ; IBUFDS ; i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/clock_system_inst/out_pclk ; Data and Trigger", 25, "IBUFDS", 2, false); // an:ab (JViewport:JComponent, L:g)
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/bits_gen[3].line_if_inst/data_s ; IBUFDS ; i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/clock_system_inst/out_pclk ; Data and Trigger", 28, "IBUFDS", 2, false, true, false, false, false, false); // an:ab (JViewport:JComponent, L:g) - Shift Key
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/bits_gen[2].line_if_inst/data_s ; IBUFDS ; i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/clock_system_inst/out_pclk ; Data and Trigger", 27, "IBUFDS", 2, false, false, false, false, true, false); // an:ab (JViewport:JComponent, L:g) - Popup Trigger
+selectMenu(PAResourceAtoD.DebugWizard_SET_PROBE_TYPE, "Set Probe Type"); // Y:JMenu (ah:JPopupMenu, L:g)
+selectMenuItem(PAResourceAtoD.DebugWizard_SELECT_CLOCK_DOMAIN, "Select Clock Domain..."); // R:ab (ah:JPopupMenu, L:g)
+// Tcl Command: 'show_objects -name CLK_NET0.16226638752439604 [get_nets -hierarchical -filter {TYPE == "GLOBAL_CLOCK"}]'
+// aT:q (cd:JFrame): Select Clock Domain: addNotify
+// TclEventType: SHOW_OBJECTS
+selectTree(PAResourceOtoP.PickClockDomainNetDialog_CLOCK_DOMAIN_NETS_TREE, "[pzsdr2_ccfmc_lvds, i_system_wrapper/system_i/sys_ps7/inst/FCLK_CLK0]", 3, false); // aX:i (JViewport:JComponent, aT:q)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aT:q)
+dismissDialog("Select Clock Domain"); // aT:q (cd:JFrame)
+selectTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/transfer_cnt (15) ; FDRE ; i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/clock_system_inst/out_uclk ; Data and Trigger", 54, "i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/transfer_cnt (15)", 0, false); // an:ab (JViewport:JComponent, L:g)
+// Elapsed time: 10 seconds
+expandTreeTable(PAResourceAtoD.DebugWizard_CHIPSCOPE_TREE_TABLE, "i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/transfer_cnt (15) ; FDRE ; i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/clock_system_inst/out_uclk ; Data and Trigger", 54); // an:ab (JViewport:JComponent, L:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, L:g)
+selectComboBox(PAResourceAtoD.DebugWizard_SAMPLE_OF_DATA_DEPTH, "4096", 2); // e:JComboBox (JPanel:JComponent, L:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, L:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, L:g)
+// TclEventType: DEBUG_CORE_DELETE
+// TclEventType: NETLIST_UPDATE
+// bt:g (L:g):  Set Up Debug : addNotify
+// Tcl Message: delete_debug_core [get_debug_cores {u_ila_0 u_ila_1 }] 
+// TclEventType: NETLIST_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 6,136 MB. GUI used memory: 90 MB. Current time: 5/9/17 2:21:41 PM CEST
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_CORE_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_core u_ila_0 ila 
+// Tcl Message: set_property C_DATA_DEPTH 8192 [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_TRIGIN_EN false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_CORE_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_core u_ila_1 ila 
+// Tcl Message: set_property C_DATA_DEPTH 8192 [get_debug_cores u_ila_1] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_TRIGIN_EN false [get_debug_cores u_ila_1] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_TRIGOUT_EN false [get_debug_cores u_ila_1] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_ADV_TRIGGER false [get_debug_cores u_ila_1] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_1] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_1] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_1] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_1] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/clk] 
+// Tcl Message: connect_debug_port u_ila_0/clk [get_nets [list i_system_wrapper/system_i/sys_ps7/inst/FCLK_CLK0 ]] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/clk] 
+// Tcl Message: connect_debug_port u_ila_1/clk [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/clock_system_inst/out_uclk ]] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 4 [get_debug_ports u_ila_0/probe0] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe0 [get_nets [list {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WSTRB[0]} {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WSTRB[1]} {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WSTRB[2]} {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WSTRB[3]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 32 [get_debug_ports u_ila_0/probe1] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 2 [get_debug_ports u_ila_0/probe2] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe2 [get_nets [list {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_BRESP[0]} {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_BRESP[1]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 3 [get_debug_ports u_ila_0/probe3] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe3 [get_nets [list {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWSIZE[0]} {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWSIZE[1]} {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWSIZE[2]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 3 [get_debug_ports u_ila_0/probe4] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe4] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe4 [get_nets [list {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWPROT[0]} {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWPROT[1]} {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWPROT[2]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 8 [get_debug_ports u_ila_0/probe5] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe5] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe5 [get_nets [list {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWLEN[0]} {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWLEN[1]} {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWLEN[2]} {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWLEN[3]} {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWLEN[4]} {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWLEN[5]} {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWLEN[6]} {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWLEN[7]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 4 [get_debug_ports u_ila_0/probe6] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe6] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe6 [get_nets [list {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWCACHE[0]} {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWCACHE[1]} {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWCACHE[2]} {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWCACHE[3]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 2 [get_debug_ports u_ila_0/probe7] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe7] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe7 [get_nets [list {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWBURST[0]} {i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWBURST[1]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 32 [get_debug_ports u_ila_0/probe8] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe8] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 4 [get_debug_ports u_ila_0/probe9] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe9] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe9 [get_nets [list {cam1_data_lp_p_IBUF[0]} {cam1_data_lp_p_IBUF[1]} {cam1_data_lp_p_IBUF[2]} {cam1_data_lp_p_IBUF[3]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 4 [get_debug_ports u_ila_0/probe10] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe10] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe10 [get_nets [list {cam1_data_lp_n_IBUF[0]} {cam1_data_lp_n_IBUF[1]} {cam1_data_lp_n_IBUF[2]} {cam1_data_lp_n_IBUF[3]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe11] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe11] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe11 [get_nets [list i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWREADY ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe12] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe12] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_0/probe12 [get_nets [list i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_AWVALID ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe13] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe13] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_0/probe13 [get_nets [list i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_BREADY ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe14] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe14] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_0/probe14 [get_nets [list i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_BVALID ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe15] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe15] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_0/probe15 [get_nets [list i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WLAST ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe16] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe16] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe16 [get_nets [list i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WREADY ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe17] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe17] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe17 [get_nets [list i_system_wrapper/system_i/axi_vdma_0_M_AXI_S2MM_WVALID ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe18] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe18] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe18 [get_nets [list {i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/bits_gen[1].line_if_inst/data_s} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe19] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe19] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_0/probe19 [get_nets [list {i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/bits_gen[3].line_if_inst/data_s} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe20] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe20] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_0/probe20 [get_nets [list {i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/bits_gen[2].line_if_inst/data_s} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/probe21] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe21] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_0/probe21 [get_nets [list {i_system_wrapper/system_i/csi2_d_phy_rx_0/U0/bits_gen[0].line_if_inst/data_s} ]] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 16 [get_debug_ports u_ila_1/probe0] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe0] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 32 [get_debug_ports u_ila_1/probe1] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe1] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 8 [get_debug_ports u_ila_1/probe2] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe2] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_1/probe2 [get_nets [list {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL3_RXDATAHS[0]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL3_RXDATAHS[1]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL3_RXDATAHS[2]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL3_RXDATAHS[3]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL3_RXDATAHS[4]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL3_RXDATAHS[5]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL3_RXDATAHS[6]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL3_RXDATAHS[7]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 8 [get_debug_ports u_ila_1/probe3] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe3] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_1/probe3 [get_nets [list {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL2_RXDATAHS[0]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL2_RXDATAHS[1]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL2_RXDATAHS[2]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL2_RXDATAHS[3]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL2_RXDATAHS[4]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL2_RXDATAHS[5]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL2_RXDATAHS[6]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL2_RXDATAHS[7]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 8 [get_debug_ports u_ila_1/probe4] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe4] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_1/probe4 [get_nets [list {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL1_RXDATAHS[0]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL1_RXDATAHS[1]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL1_RXDATAHS[2]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL1_RXDATAHS[3]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL1_RXDATAHS[4]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL1_RXDATAHS[5]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL1_RXDATAHS[6]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL1_RXDATAHS[7]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 8 [get_debug_ports u_ila_1/probe5] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe5] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_1/probe5 [get_nets [list {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL0_RXDATAHS[0]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL0_RXDATAHS[1]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL0_RXDATAHS[2]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL0_RXDATAHS[3]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL0_RXDATAHS[4]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL0_RXDATAHS[5]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL0_RXDATAHS[6]} {i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL0_RXDATAHS[7]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 32 [get_debug_ports u_ila_1/probe6] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe6] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 32 [get_debug_ports u_ila_1/probe7] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe7] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 15 [get_debug_ports u_ila_1/probe8] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe8] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe9] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe9] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_1/probe9 [get_nets [list i_system_wrapper/system_i/axis_data_fifo_0_M_AXIS_TLAST ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe10] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe10] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_1/probe10 [get_nets [list i_system_wrapper/system_i/axis_data_fifo_0_M_AXIS_TREADY ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe11] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe11] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_1/probe11 [get_nets [list i_system_wrapper/system_i/axis_data_fifo_0_M_AXIS_TUSER ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe12] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe12] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_1/probe12 [get_nets [list i_system_wrapper/system_i/axis_data_fifo_0_M_AXIS_TVALID ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe13] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe13] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_1/probe13 [get_nets [list i_system_wrapper/system_i/axis_data_fifo_0_s_axis_tready ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe14] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe14] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_1/probe14 [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_CL_ENABLE ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe15] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe15] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_1/probe15 [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_CL_RXCLKACTIVEHS ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe16] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe16] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_1/probe16 [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_CL_STOPSTATE ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe17] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe17] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_1/probe17 [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL0_ENABLE ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe18] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe18] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_1/probe18 [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL0_RXACTIVEHS ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe19] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe19] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_1/probe19 [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL0_RXSYNCHS ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe20] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe20] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_1/probe20 [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL0_RXVALIDHS ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe21] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe21] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_1/probe21 [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL1_ENABLE ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe22] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe22] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_1/probe22 [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL1_RXACTIVEHS ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe23] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe23] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_1/probe23 [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL1_RXSYNCHS ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe24] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe24] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_1/probe24 [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL1_RXVALIDHS ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe25] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe25] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_1/probe25 [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL2_ENABLE ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe26] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe26] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_1/probe26 [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL2_RXACTIVEHS ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe27] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe27] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_1/probe27 [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL2_RXSYNCHS ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe28] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe28] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_1/probe28 [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL2_RXVALIDHS ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe29] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe29] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_1/probe29 [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL3_ENABLE ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe30] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe30] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_1/probe30 [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL3_RXACTIVEHS ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe31] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe31] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_1/probe31 [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL3_RXSYNCHS ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe32] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe32] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_1/probe32 [get_nets [list i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL3_RXVALIDHS ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe33] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe33] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_1/probe33 [get_nets [list i_system_wrapper/system_i/csi_to_axis_0_m_axis_tlast ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe34] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe34] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: connect_debug_port u_ila_1/probe34 [get_nets [list i_system_wrapper/system_i/csi_to_axis_0_m_axis_tuser ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe35] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe35] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_1/probe35 [get_nets [list i_system_wrapper/system_i/csi_to_axis_0_m_axis_tvalid ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_1 probe 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_1/probe36] 
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_1/probe36] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 6,136 MB. GUI used memory: 90 MB. Current time: 5/9/17 2:22:37 PM CEST
+// Tcl Message: connect_debug_port u_ila_1/probe36 [get_nets [list i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/start_of_frame ]] 
+// Elapsed time: 57 seconds
+dismissDialog("Set Up Debug"); // bt:g (L:g)
+dismissDialog("Set Up Debug"); // L:g (cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SAVE_DESIGN
+// bt:g (cd:JFrame):  Save Constraints : addNotify
+// Tcl Message: save_constraints 
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// 'h' command handler elapsed time: 11 seconds
+// Elapsed time: 14 seconds
+selectButton("PAResourceAtoD.ConstraintUtils_ALL_NEW_CONSTRAINTS_SAVED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, F:JDialog)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 37, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// y:aO (cd:JFrame): No Implementation Results Available: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("No Implementation Results Available"); // y:aO (cd:JFrame)
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 16 
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// Tcl Message: Writing placer database... Writing XDEF routing. Writing XDEF routing logical nets. Writing XDEF routing special nets. 
+// Tcl Message: Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.37 . Memory (MB): peak = 7180.172 ; gain = 0.000 ; free physical = 9713 ; free virtual = 12484 
+// TclEventType: RUN_LAUNCH
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 5000 ms.
+// Tcl Message: [Tue May  9 14:23:10 2017] Launched impl_1... Run output will be captured here: /home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.runs/impl_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:24 ; elapsed = 00:00:12 . Memory (MB): peak = 7180.172 ; gain = 0.000 ; free physical = 9656 ; free virtual = 12430 
+// Elapsed time: 19 seconds
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 6000 ms.
+// [GUI Memory]: 140 MB (+920kb) [00:25:05]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 10000 ms.
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 11000 ms.
+// Elapsed time: 1494 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 38, true); // u:K (t:D, cd:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h:k (JPanel:JComponent, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// bt:g (cd:JFrame):  Auto Connect : addNotify
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-2222] Launching hw_server... INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2016.4   **** Build date : Jan 23 2017-19:28:34     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210299A1AFCC 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.runs/impl_1/system_top.bit} [lindex [get_hw_devices xc7z035_1] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {/home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7z035_1] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices xc7z035_1] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z035_1] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7z035 (JTAG device index = 1) is programmed with a design that has 2 ILA core(s). 
+// HMemoryUtils.trashcanNow. Engine heap size: 6,165 MB. GUI used memory: 104 MB. Current time: 5/9/17 2:48:25 PM CEST
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 12000 ms.
+// Tcl Message: refresh_hw_device: Time (s): cpu = 00:00:20 ; elapsed = 00:00:05 . Memory (MB): peak = 7180.172 ; gain = 0.000 ; free physical = 9067 ; free virtual = 12117 
+// Elapsed time: 13 seconds
+dismissDialog("Auto Connect"); // bt:g (cd:JFrame)
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7z035_1 (3) ; Programmed", 3, "xc7z035_1 (3)", 0, true, false, false, false, true, false); // t:ab (JViewport:JComponent, cd:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// Tcl Message: set_property PROBES.FILE {/home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.runs/impl_1/debug_nets.ltx} [lindex [get_hw_devices xc7z035_1] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.runs/impl_1/system_top.bit} [lindex [get_hw_devices xc7z035_1] 0] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7z035_1] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z035_1] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7z035 (JTAG device index = 1) is programmed with a design that has 2 ILA core(s). 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z035_1] -filter {CELL_NAME=~"u_ila_0"}]] 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z035_1] -filter {CELL_NAME=~"u_ila_1"}]] 
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// 'B' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 6,192 MB. GUI used memory: 107 MB. Current time: 5/9/17 2:48:47 PM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 13000 ms.
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "hw_ila_2", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, i_system_wrapper/system_i/csi2_d_phy_rx_0_RX_MIPI_PPI_DL0_RXDATAHS[7:0]]", 0, true); // a:i (JViewport:JComponent, cd:JFrame) - Node
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, u_ila_1_csi2_d_phy_rx_0_RX_MIPI_PPI_DL3_RXSYNCHS]", 9, false, true, false, false, false, false); // a:i (JViewport:JComponent, cd:JFrame) - Shift Key
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(PAResourceItoN.IlaProbeTablePanel_ADD_PROBE, "IlaProbeTablePanel_new"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Add Probes: show
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, i_system_wrapper/system_i/axis_data_fifo_0_M_AXIS_TUSER]", 3, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, i_system_wrapper/system_i/csi_to_axis_0_m_axis_tuser]", 15, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow)
+selectButton(PAResourceAtoD.AddIlaProbesPopup_OK, "OK"); // a:JButton (JPanel:JComponent, ResizableWindow:JWindow)
+// Add Probes: hide
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "u_ila_1_csi2_d_phy_rx_0_RX_MIPI_PPI_DL3_RXACTIVEHS ; ==   ; [B]   ; X ; probe32[0]", 0, "u_ila_1_csi2_d_phy_rx_0_RX_MIPI_PPI_DL3_RXACTIVEHS", 0); // z:r (JViewport:JComponent, cd:JFrame)
+selectButton(RDIResource.WaveformView_ADD, "Waveform Viewer_new"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Add Probes: show
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, i_system_wrapper/system_i/csi_to_axis_0_m_axis_tdata[31:0]]", 13, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, i_system_wrapper/system_i/csi_to_axis_0_m_axis_tvalid]", 16, false, true, false, false, false, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow) - Shift Key
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/packet_size[15:2]]", 9, false, false, true, false, false, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow) - Control Key
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/packet_size_1[0:0]]", 10, false, false, true, false, false, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow) - Control Key
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/start_of_frame]", 11, false, false, true, false, false, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow) - Control Key
+// [GUI Memory]: 147 MB (+343kb) [00:48:18]
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/transfer_cnt[2:2]]", 12, false, false, true, false, false, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow) - Control Key
+// Elapsed time: 11 seconds
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, u_ila_1_transfer_cnt_1[1:1]]", 60, false, false, true, false, false, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow) - Control Key
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, u_ila_1_transfer_cnt[15:3]]", 59, false, false, true, false, false, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow) - Control Key
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, u_ila_1_packet_size[1:1]]", 58, false, false, true, false, false, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow) - Control Key
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(PAResourceAtoD.AddIlaProbesPopup_OK, "OK"); // a:JButton (JPanel:JComponent, ResizableWindow:JWindow)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Add Probes: hide
+// Tcl Message: add_wave -into {hw_ila_data_2.wcfg} -radix hex { {i_system_wrapper/system_i/csi_to_axis_0_m_axis_tdata} {i_system_wrapper/system_i/csi_to_axis_0_m_axis_tlast} {i_system_wrapper/system_i/csi_to_axis_0_m_axis_tuser} {i_system_wrapper/system_i/csi_to_axis_0_m_axis_tvalid} {i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/packet_size} {i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/packet_size_1} {i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/start_of_frame} {i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/transfer_cnt} {u_ila_1_transfer_cnt_1} {u_ila_1_transfer_cnt} {u_ila_1_packet_size} } 
+selectButton(RDIResource.WaveformView_ADD, "Waveform Viewer_new"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Add Probes: show
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/packet_size[15:2]]", 9, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/start_of_frame]", 11, false, true, false, false, false, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow) - Shift Key
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/transfer_cnt[2:2]]", 12, false, true, false, false, false, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow) - Shift Key
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, i_system_wrapper/system_i/csi_to_axis_0_m_axis_tvalid]", 16, false, true, false, false, false, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow) - Shift Key
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, u_ila_1_transfer_cnt_1[1:1]]", 60, false, false, true, false, false, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow) - Control Key
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, u_ila_1_transfer_cnt[15:3]]", 59, false, false, true, false, false, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow) - Control Key
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, u_ila_1_packet_size[1:1]]", 58, false, false, true, false, false, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow) - Control Key
+selectButton(PAResourceAtoD.AddIlaProbesPopup_OK, "OK"); // a:JButton (JPanel:JComponent, ResizableWindow:JWindow)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Add Probes: hide
+// Tcl Message: add_wave -into {hw_ila_data_2.wcfg} -radix hex { {i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/packet_size} {i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/packet_size_1} {i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/start_of_frame} {i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/transfer_cnt} {i_system_wrapper/system_i/csi_to_axis_0_m_axis_tdata} {i_system_wrapper/system_i/csi_to_axis_0_m_axis_tlast} {i_system_wrapper/system_i/csi_to_axis_0_m_axis_tuser} {i_system_wrapper/system_i/csi_to_axis_0_m_axis_tvalid} {u_ila_1_transfer_cnt_1} {u_ila_1_transfer_cnt} {u_ila_1_packet_size} } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, u_ila_1_packet_size[1:1]]", 9, true); // a:i (JViewport:JComponent, cd:JFrame) - Node
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, csi_to_axis_0_m_axis_tdata[31:0]]", 0, true, true, false, false, false, false); // a:i (JViewport:JComponent, cd:JFrame) - Shift Key - Node
+selectButton(RDIResource.WaveformView_REMOVE_SELECTED, "Waveform Viewer_Remove1"); // y:JideButton (g:CommandBar, cd:JFrame)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.WaveformView_ADD, "Waveform Viewer_new"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Add Probes: show
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/packet_size[15:2]]", 9, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow)
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, i_system_wrapper/system_i/csi_to_axis_0_m_axis_tvalid]", 16, false, true, false, false, false, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow) - Shift Key
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, u_ila_1_packet_size[1:1]]", 58, false, false, true, false, false, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow) - Control Key
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, u_ila_1_transfer_cnt[15:3]]", 59, false, false, true, false, false, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow) - Control Key
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, u_ila_1_transfer_cnt_1[1:1]]", 60, false, false, true, false, false, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow) - Control Key
+selectButton(PAResourceAtoD.AddIlaProbesPopup_OK, "OK"); // a:JButton (JPanel:JComponent, ResizableWindow:JWindow)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Add Probes: hide
+// Tcl Message: add_wave -into {hw_ila_data_2.wcfg} -radix hex { {i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/packet_size} {i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/packet_size_1} {i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/start_of_frame} {i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/transfer_cnt} {i_system_wrapper/system_i/csi_to_axis_0_m_axis_tdata} {i_system_wrapper/system_i/csi_to_axis_0_m_axis_tlast} {i_system_wrapper/system_i/csi_to_axis_0_m_axis_tuser} {i_system_wrapper/system_i/csi_to_axis_0_m_axis_tvalid} {u_ila_1_packet_size} {u_ila_1_transfer_cnt} {u_ila_1_transfer_cnt_1} } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, csi_to_axis_0_m_axis_tdata[31:0]]", 4, true); // a:i (JViewport:JComponent, cd:JFrame) - Node
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_FOR_THIS_ILA_CORE, "Waveform Viewer_run_trigger"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z035_1] -filter {CELL_NAME=~"u_ila_1"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2017-May-09 14:50:34 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z035_1] -filter {CELL_NAME=~"u_ila_1"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z035_1] -filter {CELL_NAME=~"u_ila_1"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2017-May-09 14:50:34 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 6,192 MB. GUI used memory: 109 MB. Current time: 5/9/17 2:50:37 PM CEST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file /home/achiel/Documents/Thesis/picozed_sdr/camera_project_final/pzsdr2_ccfmc_lvds.hw/backup/hw_ila_data_2.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, u_ila_1_transfer_cnt[15:3]]", 9, true); // a:i (JViewport:JComponent, cd:JFrame) - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, u_ila_1_packet_size[1:1]]", 8, true); // a:i (JViewport:JComponent, cd:JFrame) - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 6,192 MB. GUI used memory: 109 MB. Current time: 5/9/17 2:50:49 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/packet_size[15:2]]", 1, true); // a:i (JViewport:JComponent, cd:JFrame) - Node
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, u_ila_1_packet_size[1:1]]", 8, true, false, true, false, false, false); // a:i (JViewport:JComponent, cd:JFrame) - Control Key - Node
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/packet_size[15:2]]", 1, true, false, false, false, true, false); // a:i (JViewport:JComponent, cd:JFrame) - Popup Trigger - Node
+selectMenu((HResource) null, "Name"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu((HResource) null, "Waveform Style"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu((HResource) null, "Signal Color"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu((HResource) null, "Radix"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenuItem((HResource) null, "New Virtual Bus"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_RENAME_COMMAND
+// HMemoryUtils.trashcanNow. Engine heap size: 6,192 MB. GUI used memory: 110 MB. Current time: 5/9/17 2:51:04 PM CEST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Packet Size]", 7, true, false, false, false, true, false); // a:i (JViewport:JComponent, cd:JFrame) - Popup Trigger - Node
+selectMenu((HResource) null, "Name"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu((HResource) null, "Waveform Style"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu((HResource) null, "Signal Color"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu((HResource) null, "Waveform Style"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu((HResource) null, "Signal Color"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu((HResource) null, "Waveform Style"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu((HResource) null, "Name"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Packet Size]", 7); // a:i (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Packet Size, u_ila_1_packet_size[1:1]]", 9, true); // a:i (JViewport:JComponent, cd:JFrame) - Node
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Packet Size, u_ila_1_packet_size[1:1]]", 9, true); // a:i (JViewport:JComponent, cd:JFrame) - Node
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, i_system_wrapper/system_i/csi_to_axis_0_m_axis_tdata[31:0]]", 0); // a:i (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 109 MB. Current time: 5/9/17 2:51:21 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, i_system_wrapper/system_i/csi_to_axis_0_m_axis_tdata[31:0]]", 0); // a:i (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Packet Size, u_ila_1_packet_size[1:1]]", 9, true); // a:i (JViewport:JComponent, cd:JFrame) - Node
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Packet Size]", 7); // a:i (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 109 MB. Current time: 5/9/17 2:51:25 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 109 MB. Current time: 5/9/17 2:51:58 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 114 MB. Current time: 5/9/17 2:51:58 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 110 MB. Current time: 5/9/17 2:51:59 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 53 seconds
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/packet_size_1[0:0]]", 1, true); // a:i (JViewport:JComponent, cd:JFrame) - Node
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 109 MB. Current time: 5/9/17 2:52:20 PM CEST
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, u_ila_1_transfer_cnt[15:3]]", 7, true); // a:i (JViewport:JComponent, cd:JFrame) - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/packet_size_1[0:0]]", 9, true, true, false, false, false, false); // a:i (JViewport:JComponent, cd:JFrame) - Shift Key - Node
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/packet_size_1[0:0]]", 9, true, false, false, false, true, false); // a:i (JViewport:JComponent, cd:JFrame) - Popup Trigger - Node
+selectMenu((HResource) null, "Waveform Style"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu((HResource) null, "Signal Color"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu((HResource) null, "Radix"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenuItem((HResource) null, "New Virtual Bus"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_RENAME_COMMAND
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 109 MB. Current time: 5/9/17 2:52:25 PM CEST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 110 MB. Current time: 5/9/17 2:52:39 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 109 MB. Current time: 5/9/17 2:52:39 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 109 MB. Current time: 5/9/17 2:52:40 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 109 MB. Current time: 5/9/17 2:52:44 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 114 MB. Current time: 5/9/17 2:52:45 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 109 MB. Current time: 5/9/17 2:52:48 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 109 MB. Current time: 5/9/17 2:52:48 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 109 MB. Current time: 5/9/17 2:52:49 PM CEST
+// Elapsed time: 31 seconds
+expandTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Packet Cnt]", 7); // a:i (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Packet Size]", 6, true); // a:i (JViewport:JComponent, cd:JFrame) - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 110 MB. Current time: 5/9/17 2:52:58 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// [GUI Memory]: 160 MB (+6510kb) [00:52:30]
+// Elapsed time: 38 seconds
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/transfer_cnt[2:2]]", 2, true); // a:i (JViewport:JComponent, cd:JFrame) - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/transfer_cnt[2:2]]", 2, true); // a:i (JViewport:JComponent, cd:JFrame) - Node
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+collapseTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, Packet Cnt]", 6); // a:i (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 110 MB. Current time: 5/9/17 2:53:42 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 10 seconds
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/start_of_frame]", 1, false); // a:i (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(PAResourceItoN.IlaProbeTablePanel_ADD_PROBE, "IlaProbeTablePanel_new"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Add Probes: show
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/start_of_frame]", 11, false); // M:i (JViewport:JComponent, ResizableWindow:JWindow)
+// Add Probes: hide
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "i_system_wrapper/system_i/csi_to_axis_0_m_axis_tuser ; ==   ; [B]   ; X ; probe34[0]", 0, "i_system_wrapper/system_i/csi_to_axis_0_m_axis_tuser", 0); // z:r (JViewport:JComponent, cd:JFrame)
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, i_system_wrapper/system_i/csi_to_axis_0_m_axis_tuser]", 3, false); // a:i (JViewport:JComponent, cd:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 109 MB. Current time: 5/9/17 2:54:07 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 114 MB. Current time: 5/9/17 2:54:07 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 109 MB. Current time: 5/9/17 2:54:09 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 110 MB. Current time: 5/9/17 2:54:09 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 111 MB. Current time: 5/9/17 2:54:09 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 6,184 MB. GUI used memory: 109 MB. Current time: 5/9/17 2:54:09 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/start_of_frame ; ==   ; [B]   ; X ; probe36[0]", 1, "i_system_wrapper/system_i/csi_to_axis_0/U0/parser_inst/start_of_frame", 0); // z:r (JViewport:JComponent, cd:JFrame)
+selectButton(PAResourceItoN.IlaProbeTablePanel_REMOVE_SELECTED_PROBE, "IlaProbeTablePanel_remove"); // y:JideButton (g:CommandBar, cd:JFrame)
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z035_1] -filter {CELL_NAME=~"u_ila_1"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_2' trigger was armed at 2017-May-09 14:54:17 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z035_1] -filter {CELL_NAME=~"u_ila_1"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z035_1] -filter {CELL_NAME=~"u_ila_1"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_2' triggered at 2017-May-09 14:54:17 
