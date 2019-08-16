@@ -1,2 +1,2 @@
 # zynq
-Practice and tutorial projects for zynq
+Practice projects for zynq
