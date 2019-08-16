@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Project Version="1" Minor="3" DIGEST="">
+	<TOOL_VERSION Version="2018.2"/>
+	<MODE Name="Pre-Synthesis"/>
+	<SYSTEMINFO BOARD="em.avnet.com:zed:1.4" PART="xc7z020clg484-1" ARCH="zynq" PACKAGE="clg484" DEVICE="7z020" SPEED="-1"/>
+	<HIERARCHY Name="design_1_wrapper"/>
+	<File Type="HW_HANDOFF" Name="design_1.hwh" DESIGN_HIERARCHY="design_1_i" BD_TYPE="DEFAULT_BD"/>
+	<File Type="BD_TCL" Name="design_1_bd.tcl"/>
+	<File Type="PS_FSBL_INIT" Name="ps7_init.c"/>
+	<File Type="PS_FSBL_INIT" Name="ps7_init.h"/>
+	<File Type="PS_FSBL_INIT_GPL" Name="ps7_init_gpl.c"/>
+	<File Type="PS_FSBL_INIT_GPL" Name="ps7_init_gpl.h"/>
+	<File Type="PS_INIT_HELP" Name="ps7_init.html"/>
+	<File Type="PS_XMD_INIT" Name="ps7_init.tcl"/>
+	<File Type="HW_HANDOFF" Name="design_1_system_ila_0_1.hwh" DESIGN_HIERARCHY="design_1_system_ila_0_1" BD_TYPE="SCOPED_BD"/>
+	<File Type="BD_TCL" Name="design_1_system_ila_0_1_bd.tcl"/>
+	<File Type="HW_HANDOFF" Name="design_1_system_ila_1_0.hwh" DESIGN_HIERARCHY="design_1_system_ila_1_0" BD_TYPE="SCOPED_BD"/>
+	<File Type="BD_TCL" Name="design_1_system_ila_1_0_bd.tcl"/>
+	<File Type="HW_HANDOFF" Name="design_1_system_ila_2_0.hwh" DESIGN_HIERARCHY="design_1_system_ila_2_0" BD_TYPE="SCOPED_BD"/>
+	<File Type="BD_TCL" Name="design_1_system_ila_2_0_bd.tcl"/>
+	<BOARD Type="NotIntegrated">
+		<BASEBOARD Name="em.avnet.com:zed:1.4">
+		</BASEBOARD>
+	</BOARD>
+	<USEDRESOURCES/>
+</Project>
+
