@@ -1,2 +1,2 @@
 # zynq
-Practice projects for zynq
+Project collection for zynq.
