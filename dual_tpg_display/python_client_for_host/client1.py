@@ -42,10 +42,15 @@ if __name__ == '__main__':
 #########################
 	IMG_W = 800
 	IMG_H = 600
+
+	# MAX udp buffer size for a udp packet
+	# Typically slightly larger than  the data transmitting
+	# The unit is byte
+	max_udp_buf = IMG_W*31
+	# packet num per frame, this should be changed according to max_udp_buf
+	packet_num = IMG_H/10
 #########################
 
-	max_udp_buf = IMG_W*31
-	packet_num = IMG_H/10
 
 	framelen = IMG_H*IMG_W*3
 

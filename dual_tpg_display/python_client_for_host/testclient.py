@@ -1,13 +1,17 @@
+# simple client for testing the speed of transmittion
 
 import socket
 import time
 
 
 if __name__ == '__main__':
+	#######################
 	IMG_W = 1920
 	IMG_H = 1080
 	max_udp_buf = IMG_W*4
 	packet_num = IMG_H
+	#######################
+
 
 	framelen = IMG_H*IMG_W*3
 
