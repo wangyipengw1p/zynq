@@ -28,12 +28,6 @@ function and a function for transferring video data.
 `vdma.c` contains APIs for controling VDMA
 `zynq_interrupt.c` contains APIS for interruption.
 Other file may not be intersting.
-#### v_tpg
-For reconfiguring the tpg pattern, referring the `init_pkg()` function and the
-library(APIs): `xv_tpg.h`.
-Please check the documentation for detailed function discriptions (google 
-"xilinx tpg" and check for the register space defination) and required function 
-call sequence.
 #### VDMA
 Only S2MM channel is enabled, which is for writing to DDR. Tripple buffer is set. 
 The init_VDMA function does the initialization accordingly.
