@@ -68,7 +68,7 @@ Byte|Name|Discription
 
 ## Client for host
 The example client for host is in `python_client_for_host` folder.
-> Currently, `pygame` package is used for display, which is **not** fast enough for smooth video display.
+> Currently, `pygame` package is used for display, which is **not** fast enough for smooth video display. If you have a caton situation, try replace the client by opencv with GPU acc, or any other supported player.
 ## Run
 
 ## Performance
